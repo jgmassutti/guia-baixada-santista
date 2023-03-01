@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  main {
+    position: absolute; /* DEFINE QUE A POSIÇÃO SERÁ ABSOLUTA */
+    top: 261px;
+    left: 251px;
+    width: calc(100% - 251px - 251px);
+    height: calc(100% - 261px);
+  }
+
+  /* dizer que o aside tem 20%, mandar o width:60% e dizer que o aside da direita vai ter 20% */
+
+  #cabecalho {
+    top: 0;
+    background-image: url("Imagens/header.jpg");
+    background-size: 100%;
+    background-position: -50%;
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    height: 260px;
+  }
+  #titulo {
+    margin-left: 89px;
+    margin-top: 30px;
+    margin-bottom: 79px;
+    width: 569px;
+    height: 158px;
+    line-height: 80px;
+    font-size: 64px;
+    color: #fff;
+    -webkit-text-stroke: 2px black;
+  }
+  #cidades {
+    top: 261px;
+    position: relative;
+    background-color: #d9d9d9;
+    width: 250px;
+    height: 600px;
+    padding-top: 36px;
+    position: fixed;
+  }
+
+  #parceiros {
+    top: 261px;
+    left: calc(100% - 251px);
+    position: relative;
+    background-color: #d9d9d9;
+    width: 250px;
+    height: 600px;
+    padding-top: 36px;
+    position: fixed;
+    text-align: center;
+  }
+  .cidadesBotaoLateral {
+    width: 250px;
+    height: 38px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: black;
+    text-decoration: none;
+  }
+  .imgMain {
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 1rem;
+  }
+  #pitangueiras {
+    display: flex;
+    padding-left: 66px;
+    padding-top: 36px;
+  }
+
+  #pitangueiras div {
+    padding: 5px 25px;
+  }
+
+  #pitangueiras div h2,
+  p,
+  a {
+    width: 500px;
+  }
+
+  #hotel {
+    display: flex;
+    padding-right: 66px;
+    padding-top: 36px;
+    margin-left: 50px;
+  }
+
+  #hotel div {
+    padding: 5px 25px;
+  }
+
+  #hotel div h2,
+  p,
+  a {
+    width: 500px;
+  }
+
+  .imgPatrocinio {
+    width: 120px;
+    height: 90px;
+    margin-bottom: 20px;
+  }
